@@ -1159,7 +1159,7 @@ namespace StardewModdingAPI.Framework
                 {
                     ControlEvents.InvokeMouseChanged(this.Monitor, this.MStatePrior, this.MStateNow, this.MPositionPrior, this.MPositionNow);
                     this.MStatePrior = this.MStateNow;
-                    this.MPositionPrior = this.MPositionPrior;
+                    this.MPositionPrior = this.MPositionNow;
                 }
             }
 
